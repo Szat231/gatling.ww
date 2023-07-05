@@ -70,7 +70,7 @@ class createUser extends Simulation {
   //setUp
 
   setUp(
-    scn.inject(rampUsers(1).during(5))
+    scn.inject(rampUsers(100).during(900))
   ).protocols(httpProtocol)
 
 }
