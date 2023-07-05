@@ -4,7 +4,7 @@ import io.gatling.core.Predef.{jsonPath, *}
 import io.gatling.http.Predef.*
 
 
-class postReuqest extends Simulation {
+class createUser extends Simulation {
 
   //protocol
   val httpProtocol = http
