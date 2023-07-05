@@ -31,12 +31,13 @@
       <artifactId>gatling-recorder</artifactId>
       <version>${gatling.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/net.alchim31.maven/scala-maven-plugin -->
+    <!-- https://mvnrepository.com/artifact/org.scala-lang/scala3-library -->
     <dependency>
-      <groupId>net.alchim31.maven</groupId>
-      <artifactId>scala-maven-plugin</artifactId>
-      <version>3.2.2</version>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala3-library_3</artifactId>
+      <version>3.3.2-RC1-bin-20230703-0a21ecf-NIGHTLY</version>
     </dependency>
+
 
   </dependencies>
 
