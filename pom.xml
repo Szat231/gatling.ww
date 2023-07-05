@@ -41,8 +41,9 @@
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala3-library_3</artifactId>
-      <version>3.3.2-RC1-bin-20230703-0a21ecf-NIGHTLY</version>
+      <version>3.3.0</version>
     </dependency>
+
 
 
   </dependencies>
