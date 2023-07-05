@@ -1,0 +1,7 @@
+RUN	wsrequest.loginRequest	loginrequest	1687863185313	test234234234	3.6.1
+USER	Login process	START	1687863186765
+REQUEST		login user	1687863186806	1687863187624	OK	 
+REQUEST		choose role	1687863187653	1687863187762	OK	 
+REQUEST		Connect WS	1687863187796	1687863188031	KO	 
+ERROR	Close WS: Client issued close order but WebSocket was already crashed: i.n.h.c.h.w.WebSocketClientHandshakeException: Invalid handshake response getStatus: 403 Forbidden 	1687863188036
+USER	Login process	END	1687863188039

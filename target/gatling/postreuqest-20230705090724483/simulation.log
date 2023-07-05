@@ -1,0 +1,6 @@
+RUN	apiRequest.postReuqest	postreuqest	1688548044483	qwertyuiop	3.6.1
+USER	Create and get User	START	1688548045426
+REQUEST		Add User	1688548045448	1688548045825	OK	 
+REQUEST		Get All User	1688548045875	1688548045895	OK	 
+REQUEST		Get Single User	1688548045910	1688548045932	KO	jsonPath($.data.first_name).find.is(2), but actually found Janet
+USER	Create and get User	END	1688548045938

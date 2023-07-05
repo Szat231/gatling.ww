@@ -1,0 +1,5 @@
+RUN	apiRequest.postReuqest	postreuqest	1688546508245	cc	3.6.1
+USER	Create and get User	START	1688546509295
+REQUEST		Add User	1688546509320	1688546509676	OK	 
+REQUEST		Get Single User	1688546509728	1688546509830	KO	jsonPath($.data.first_name).find.is(#{userId}), but actually found Janet
+USER	Create and get User	END	1688546509843

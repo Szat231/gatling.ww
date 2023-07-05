@@ -1,0 +1,5 @@
+RUN	apiRequest.postReuqest	postreuqest	1688546966145	cccc	3.6.1
+USER	Create and get User	START	1688546967183
+REQUEST		Add User	1688546967207	1688546967595	OK	 
+REQUEST		Get Single User	1688546967647	1688546967667	KO	Check validator resolution crashed: No attribute named 'userId' is defined
+USER	Create and get User	END	1688546967673

@@ -1,0 +1,10 @@
+{
+  "simulation": "wsrequest.loginRequest",
+  "simulationId": "loginrequest",
+  "start": 1687866385811,
+  "description": "753",
+  "scenarios": ["Login process"],
+  "assertions": [
+
+  ]
+}

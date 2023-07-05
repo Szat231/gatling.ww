@@ -1,0 +1,5 @@
+RUN	apiRequest.postReuqest	postreuqest	1688547842269	ery	3.6.1
+USER	Create and get User	START	1688547843616
+REQUEST		Add User	1688547843639	1688547844016	OK	 
+REQUEST		Get Single User	1688547844080	1688547844101	KO	Check validator resolution crashed: No attribute named 'userId' is defined
+USER	Create and get User	END	1688547844107

@@ -1,0 +1,12 @@
+RUN	wsrequest.loginRequest	loginrequest	1687875053851	753214569	3.6.1
+USER	Login process	START	1687875054947
+REQUEST		login user	1687875054969	1687875055633	OK	 
+REQUEST		choose role	1687875055657	1687875055774	OK	 
+REQUEST		Connect WS	1687875055805	1687875056059	OK	 
+REQUEST		checkName	1687875056059	1687875056062	OK	 
+REQUEST		Message	1687875057089	1687875057089	OK	 
+REQUEST		checkName - CONNECT	1687875057089	1687875081062	KO	WebSocket crashed while waiting for check: j.u.r.PatternSyntaxException: Unclosed character class near index 15  a["CONNECTED(.*)                 ^
+ERROR	Close WS: Client issued close order but WebSocket was already crashed: j.u.r.PatternSyntaxException: Unclosed character class near index 15
+a["CONNECTED(.*)
+               ^ 	1687875081064
+USER	Login process	END	1687875081067

@@ -1,0 +1,10 @@
+{
+  "simulation": "apiRequest.postReuqest",
+  "simulationId": "postreuqest",
+  "start": 1688547842269,
+  "description": "ery",
+  "scenarios": ["Create and get User"],
+  "assertions": [
+
+  ]
+}

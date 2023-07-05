@@ -1,0 +1,6 @@
+RUN	wsrequest.loginRequest	loginrequest	1687858503798	test 1 ws connect	3.6.1
+USER	Login process	START	1687858505537
+REQUEST		login user	1687858505571	1687858506396	OK	 
+REQUEST		choose role	1687858506420	1687858506526	OK	 
+ERROR	Connect WS: Failed to build request: No baseUrl defined but provided url is relative : demo.iaws.s4a.aero/core/shell-push/websocket/123/czxcasdf/websocket 	1687858506529
+USER	Login process	END	1687858506532

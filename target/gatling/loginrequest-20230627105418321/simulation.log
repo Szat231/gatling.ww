@@ -1,0 +1,8 @@
+RUN	wsrequest.loginRequest	loginrequest	1687863258321	test	3.6.1
+USER	Login process	START	1687863260241
+REQUEST		login user	1687863260291	1687863261290	OK	 
+REQUEST		choose role	1687863261342	1687863261449	OK	 
+REQUEST		get up	1687863261460	1687863261523	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 426
+REQUEST		Connect WS	1687863261572	1687863261778	KO	 
+ERROR	Close WS: Client issued close order but WebSocket was already crashed: i.n.h.c.h.w.WebSocketClientHandshakeException: Invalid handshake response getStatus: 403 Forbidden 	1687863261783
+USER	Login process	END	1687863261790
