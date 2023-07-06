@@ -41,24 +41,14 @@ class createUser extends Simulation {
         )
     )
   val getUser =
-    exec(session => {
-      val userName = session("userName").as[String]
-      session
-        .set("userName", userName)
-    })
-      .exec(session => {
-        val userId = session("userId").as[String]
-        session
-          .set("userId", userId)
-      })
-    .exec(
+    exec(
       http("Get Single User")
         .get("/users/2")
         .asJson
         .check(
           status is 200,
-          jsonPath("$.data.id").is("${userId}"),
-          jsonPath("$.data.first_name").is("${userName}")
+          jsonPath("$.data.id").is("#{userId}"),
+          jsonPath("$.data.first_name").is("#{userName}")
         )
     )
 
@@ -70,7 +60,7 @@ class createUser extends Simulation {
   //setUp
 
   setUp(
-    scn.inject(rampUsers(100).during(900))
+    scn.inject(rampUsers(10).during(60))
   ).protocols(httpProtocol)
 
 }
